@@ -4,40 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Erica Kelley INF 6420 Project</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header> 
-    <nav>
-        <img srs="x" alt="Logo">
-        <ul>
+    <!--this header logo is hidden right now-->
+    <nav class="top-menu">
+        <div class="header-logo">
+            <img srs="x" alt="Logo">
+        </div>
+        <ul class="main-nav">
+            <li class="top-logo"><img srs="x" alt="Logo"></li>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="contact.html">Contact</a></li>
+            <li class="top-search"><input type="text" placeholder="Search"></li>
         </ul>
+        <!--this search bar is hidden right now-->
+        <div class="search-bar">
        <input type="text" placeholder="Search">
+        </div>
     </nav>
 </header>
-<main>
-    <div>
+<main class="main-body">
+    <div class="home-logo">
         <img srs="x" alt="Logo">
     </div>
-    <div>
+    <div class="home-header">
         <h1> Erica Kelley</h1>
     </div>
-    <div>
+    <div class="home-para">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
             Sed condimentum tristique molestie. Etiam eget elementum sem.</p>
     </div>
-    <div>
+    <div class="home-img">
         <img srs="images/6420water1.jpg" alt="Water">
         <img srs="images/6420water2.jpg" alt="Water">
         <img srs="images/6420water3.jpg" alt="Water">
     </div>
 </main>
-<footer>
-<q>"I have a contact sheet wireframe already, 
-    so maybe the footer can just be a 
-    nice quote or something"</q>
+<footer class="bottom-footer">
+    <div class="footer-text">
+        <q>"I have a contact sheet wireframe already, 
+        so maybe the footer can just be a 
+        nice quote or something"</q>
+    </div>   
 </footer>
 </body>
 </html>

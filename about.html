@@ -4,30 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Erica Kelley INF 6420 Project</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header> 
-    <nav>
-        <img srs="x" alt="Logo">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-       <input type="text" placeholder="Search">
-    </nav>
-</header>
-<main>
- <div>
-    <h1>About</h1>
+    <header> 
+        <!--this header logo is hidden right now-->
+        <nav class="top-menu">
+            <div class="header-logo">
+                <img srs="x" alt="Logo">
+            </div>
+            <ul class="main-nav">
+                <li class="top-logo"><img srs="x" alt="Logo"></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="top-search"><input type="text" placeholder="Search"></li>
+            </ul>
+            <!--this search bar is hidden right now-->
+            <div class="search-bar">
+           <input type="text" placeholder="Search">
+            </div>
+        </nav>
+    </header>
+<main class="about-body">
+ <div class="about">
+    <h1>ABOUT ME</h1>
  </div>
- <div>
+ <div class="about-pic">
     <img srs="images/6420pfp.jpg" alt="A picture of me!">
- </div>
- <div>
+</div>
+<div class="pic-caption">
     <p> idek what to put here. maybe change it to a quote or something</p>
- </div>
- <div>
+</div>
+ <div class="about-text-box">
     <h2>About Text Box</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
         Sed condimentum tristique molestie. Etiam eget elementum sem. 
@@ -43,7 +52,7 @@
         Class aptent taciti sociosqu ad litora torquent per conubia nostra, 
         per inceptos himenaeos.</p>
  </div>
- <div>
+ <div class="cred-1">
     <h3>Credentials 1</h3>
     <p>Nunc vulputate arcu eget facilisis efficitur. 
         Curabitur pulvinar nec metus vel mollis. 
@@ -52,7 +61,7 @@
         Integer id nibh ligula. Integer nec elit tempor, rhoncus lacus ut, 
         convallis magna.</p>
  </div>
- <div>
+ <div class="cred-2">
     <h3>Credentials 2</h3>
     <p>Nunc vulputate arcu eget facilisis efficitur. 
         Curabitur pulvinar nec metus vel mollis. 
@@ -61,7 +70,7 @@
         Integer id nibh ligula. Integer nec elit tempor, rhoncus lacus ut, 
         convallis magna.</p>
  </div>
- <div>
+ <div class="cred-3">
     <h3>Credentials 3</h3>
     <p>Nunc vulputate arcu eget facilisis efficitur. 
         Curabitur pulvinar nec metus vel mollis. 
@@ -71,10 +80,12 @@
         convallis magna.</p>
  </div>
 </main>
-<footer>
-    <q>"I have a contact sheet wireframe already, 
+<footer class="bottom-footer">
+    <div class="footer-text">
+        <q>"I have a contact sheet wireframe already, 
         so maybe the footer can just be a 
         nice quote or something"</q>
-    </footer>
+    </div>   
+</footer>
 </body>
 </html>
