@@ -4,24 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Erica Kelley INF 6420 Project</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header> 
-    <nav>
-        <img srs="x" alt="Logo">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-       <input type="text" placeholder="Search">
-    </nav>
-</header>
+    <header> 
+        <!--this header logo is hidden right now-->
+        <nav class="top-menu">
+            <div class="header-logo">
+                <img srs="x" alt="Logo">
+            </div>
+            <ul class="main-nav">
+                <li class="top-logo"><img srs="x" alt="Logo"></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="top-search"><input type="text" placeholder="Search"></li>
+            </ul>
+            <!--this search bar is hidden right now-->
+            <div class="search-bar">
+           <input type="text" placeholder="Search">
+            </div>
+        </nav>
+    </header>
 <main>
-   <div>
+   <div class="box-1">
     <h1>Contact</h1>
-   </div>
-   <form>
+   <form class="contact-form">
 <p>
     <label>First Name</label>
     <input type="text">
@@ -42,24 +50,25 @@
     <button>Submit</button>
 </p>
    </form>
-   <div>
-    <p>
-        (333)-333-333
-    </p>
-   </div>
-   <div>
-    <p>email@email.com</p>
-   </div>
-   <div>
-    <img srs="images/6420mangrove.jpg" alt="Mangrove trees">
-    <img srs="images/6420coffee.JPG" alt="A coffee">
-    <img srs="images/6420buildings.jpg" alt="A horizon line with a line of buildings at night">
+   <ul class="contact-links">
+    <li>(333)-333-333</li>
+    <li>email@email.com</li>
+    <li>Social Media</li>
+    <li>Social Media</li>
+   </ul>
+</div>
+<div class="box-2">
+    <img srs="images/6420mangrove.jpg" class="contact-img-1" alt="Mangrove trees">
+    <img srs="images/6420coffee.JPG" class="contact-img-2" alt="A coffee">
+    <img srs="images/6420buildings.jpg" class="contact-img-3" alt="A horizon line with a line of buildings at night">
 </div>
 </main>
-<footer>
-    <q>"I have a contact sheet wireframe already, 
+<footer class="bottom-footer">
+    <div class="footer-text">
+        <q>"I have a contact sheet wireframe already, 
         so maybe the footer can just be a 
         nice quote or something"</q>
-    </footer>
+    </div>   
+</footer>
 </body>
 </html>
