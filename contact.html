@@ -27,29 +27,16 @@
         </nav>
     </header>
 <main>
-   <div class="box-1">
-    <h1>Contact</h1>
-   <form class="contact-form">
-<p>
-    <label>First Name</label>
-    <input type="text">
-</p>
-<p>
-    <label>Last Name</label>
-    <input type="text">
-</p>
-<p>
-    <label>Email</label>
-    <input type="email">
-</p>
-<p>
-    <label>Message</label>
-    <textarea></textarea>
-</p>
-<p>
-    <button>Submit</button>
-</p>
-   </form>
+<div class="box-1">
+    <form action="https://formspree.io/f/xpwpodao" method="post" class="validate">
+        <label for="name">Name</label>
+        <input name="name" id="name" type="text" class="form-input" required>
+        <label for="email">Email</label>
+        <input name="email" id="email" type="email" class="form-input" required>
+        <label for="message">Message</label>
+        <textarea name="message" id="message" type="text" class="form-input" rows="4" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
    <ul class="contact-links">
     <li>(333)-333-333</li>
     <li>email@email.com</li>
@@ -70,5 +57,6 @@
         nice quote or something"</q>
     </div>   
 </footer>
+<script src="script.js"></script>
 </body>
 </html>

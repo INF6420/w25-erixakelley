@@ -181,7 +181,36 @@ li.top-search {
     padding: 20px;
 }
 
-/* not the contact page */
+/* now the contact page */
+form {
+    width: 50%;
+    margin: 2 em auto;
+}
+
+label {
+    display: block;
+    font-weight: 700;
+}
+
+.form-input {
+    margin-bottom: 2 em;
+    width: 100%;
+}
+
+.form-input:focus {
+    outline: none;
+    border: 2px solid #1f3039;
+}
+
+.error {
+    border-color: red
+    margin: 4 em;
+}
+
+.error-message {
+    color: red;
+    margin: -2 em;
+}
 
 .box-1 {
     background: #5185A6;
