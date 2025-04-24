@@ -95,6 +95,11 @@ li.top-search {
     padding: 2%;
 }
 
+.water-pic {
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+}
 /* this is the about page now */
 
 .about-body {
@@ -181,6 +186,11 @@ li.top-search {
     padding: 20px;
 }
 
+.me-pic {
+    height: 320px;
+    margin-left: 60px;
+}
+
 /* now the contact page */
 form {
     width: 50%;
@@ -203,7 +213,7 @@ label {
 }
 
 .error {
-    border-color: red
+    border-color: red;
     margin: 4 em;
 }
 
@@ -218,6 +228,7 @@ label {
     height: 700px;
     width: 1100px;
     margin-left: 5%;
+    line-height: 25px;
 }
 
 .box-1 h1 {
@@ -256,16 +267,18 @@ label {
     margin-right: 5%;
 }
 
-.contact-img-1 {
+.contact-img {
     background: #a4acb9;
     height: 200px;
     width: 200px;
+    margin-top: 25px;
+    margin-left: 150px;
 }
 
-.contact-img-2 {
-    background: #a4acb9;
+.main-logo-pic {
+    height: 20px;
 }
 
-.contact-img-3 {
-    background: #a4acb9;
+.home-logo-pic {
+    height: 60px;
 }

@@ -11,10 +11,10 @@
         <!--this header logo is hidden right now-->
         <nav class="top-menu">
             <div class="header-logo">
-                <img srs="x" alt="Logo">
+                <img src="x" alt="Logo">
             </div>
             <ul class="main-nav">
-                <li class="top-logo"><img srs="x" alt="Logo"></li>
+                <li class="top-logo"><img src="images/crocodile.png" alt="Logo" class="main-logo-pic"></li>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
@@ -27,7 +27,11 @@
         </nav>
     </header>
 <main>
-<div class="box-1">
+<div class="box-1" style="
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;">
     <form action="https://formspree.io/f/xpwpodao" method="post" class="validate">
         <label for="name">Name</label>
         <input name="name" id="name" type="text" class="form-input" required>
@@ -45,9 +49,9 @@
    </ul>
 </div>
 <div class="box-2">
-    <img srs="images/6420mangrove.jpg" class="contact-img-1" alt="Mangrove trees">
-    <img srs="images/6420coffee.JPG" class="contact-img-2" alt="A coffee">
-    <img srs="images/6420buildings.jpg" class="contact-img-3" alt="A horizon line with a line of buildings at night">
+    <img src="images/6420mangrove.jpg" class="contact-img" alt="Mangrove trees">
+    <img src="images/6420coffee.JPG" class="contact-img" alt="A coffee">
+    <img src="images/6420buildings.jpg" class="contact-img" alt="A horizon line with a line of buildings at night">
 </div>
 </main>
 <footer class="bottom-footer">
